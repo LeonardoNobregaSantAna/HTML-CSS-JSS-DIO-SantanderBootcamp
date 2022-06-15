@@ -7,7 +7,7 @@
   </head>
   <body>                                <!-- Aqui começa o corpo do site-->
     <header>
-      <img src="leonardo-santana.jpg" alt="foto do Léo"> <!-- aqui aprendemos a inserir uma imagem e como descrevê-la. Interessante que pudemos inserí-la desta forma pois o arquivo está na mesma pasta ou workspace que o código html. Se não estivesse, para uso local poderia ser inserido o local D:.../local/do/arquivo.jpg ou através de endereço html http://ositecompleto.com.br/do/arquivo.jpg-->
+      <img src="leonardo-santana.jpg" alt="foto do Léo" class="photo"> <!-- aqui aprendemos a inserir uma imagem e como descrevê-la. Interessante que pudemos inserí-la desta forma pois o arquivo está na mesma pasta ou workspace que o código html. Se não estivesse, para uso local poderia ser inserido o local D:.../local/do/arquivo.jpg ou através de endereço html http://ositecompleto.com.br/do/arquivo.jpg-->
         <h1 id="title">Leonardo Sant'Ana</h1>      <!-- Nesta primeira header, colocamos o nome como título-->
     </header>
     <section>                           <!-- Aqui abrimos uma seção-->
@@ -17,15 +17,15 @@
         <article class="post">                       <!-- O <article> é um conteúdo independente e de maior relavância dentro de uma página -->
             <header>
                 <h3 class="post-title">Post #1</h3>        <!--Esse é só mais um post de exemplo-->
-                <img src="header-neon-cyberpunk.avif" alt="editor de texto contendo código HTML"> <!--aqui inserimos outra imagem-->
+                <img src="header-neon-cyberpunk.avif" alt="imagem aleatória para teste" class="post_image"> <!--aqui inserimos outra imagem-->
             </header>
-            <p>                         <!--Aqui, inserimos um parágrafo <p>. Dentro deste article, inserimos um hiperlink em calcildis vidis utilizando a âncora <a> e um href que é usado para inserir a URL para a qual o hiperlink aponta Em seguida, usamos o texto sou euzis para ser o link que aponta o email a ser usado. Para isso usamos mailto após href-->
+            <p class="post_content">                         <!--Aqui, inserimos um parágrafo <p>. Dentro deste article, inserimos um hiperlink em calcildis vidis utilizando a âncora <a> e um href que é usado para inserir a URL para a qual o hiperlink aponta Em seguida, usamos o texto sou euzis para ser o link que aponta o email a ser usado. Para isso usamos mailto após href-->
               Mussum Ipsum, <a href="https://www.linkedin.com/in/leonardo-n%C3%B3brega-sant-ana-3b9273241/" target="_blank">cacilds vidis</a> litrus abertis. Quem manda na minha terra <a href="mailto:leonardonobregasantana@gmail.com">sou euzis</a>!Vehicula non. Ut sed ex eros. Vivamus sit amet nibh non tellus tristique interdum.Mé faiz elementum girarzis, nisi eros vermeio.Copo furadis é disculpa de bebadis, arcu quam euismod magna.
             </p>
         </article>
     </section>
     <footer>                            <!-- este é o rodapé da página em que organizamos como lista de contatos-->
-      <ul>                              <!-- esse é o início da lista. Use ol para ordered list ou ul para unordered list-->
+      <ul class="contacts_list">                              <!-- esse é o início da lista. Use ol para ordered list ou ul para unordered list-->
         <li><a href="mailto:leonardonobregasantana@gmail.com">leonardonobregasantana@gmail.com</a></li>
         <li><a href="https://www.linkedin.com/in/leonardo-n%C3%B3brega-sant-ana-3b9273241/" target="_blank">Linkedin</a></li>
         <li><a href="https://github.com/LeonardoNobregaSantAna" target="_blank">GitHub</a></li>
